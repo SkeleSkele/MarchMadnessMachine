@@ -24,7 +24,7 @@ The program's output is a .csv file which shows each of the following for each p
 3. Their probability of winning the pool (in other words, the fraction of trials in the simulation which they won).
 4. Whether or not that person can win in a tie.
 
-The probability of a tie is also given.
+The probability of a tie is also given. (MMM does not have any method to break ties since different people like to do that differently.)
 
 # Rating Systems
 Currently the only supported rating system is that used by FiveThirtyEight, which is outlined here. https://fivethirtyeight.com/features/how-our-march-madness-predictions-work-2/
