@@ -1,0 +1,201 @@
+# vim:set tw=0 cc=0 nu linebreak:
+
+##########################################################################
+# RATING SYSTEM
+# On the following line, write either "elo" or "538power" without quotes.
+##########################################################################
+538power
+
+##########################################################################
+# SCORING SYSTEM
+# Define how many points one game in each round is worth, separated by semicolons. eg: 2;3;5;8;13;21
+##########################################################################
+2;3;5;8;13;21
+
+##########################################################################
+# TEAMS
+# On each line, write the name of a team, followed by a semicolon, followed by their rating. eg: Virginia;931
+# ALL TEAMS MUST GO IN BRACKET ORDER!
+##########################################################################
+Gonzaga;965
+Norfolk St.;689
+
+Oklahoma;812
+Missouri;818
+
+Creighton;870
+UC Santa Barbara;784
+
+Virginia;881
+Ohio;775
+
+USC;858
+Drake;782
+
+Kansas;850
+Eastern Washington;761
+
+Oregon;846
+VCU;817
+
+Iowa;908
+Grand Canyon;747
+
+Michigan;886
+Texas Southern;699
+
+LSU;851
+St. Bonaventure;829
+
+Colorado;860
+Georgetown;813
+
+Florida St.;868
+UNC Greensboro;778
+
+BYU;845
+UCLA;829
+
+Texas;868
+Abilene Christian;770
+
+UConn;853
+Maryland;844
+
+Alabama;888
+Iona;718
+
+Baylor;936
+Hartford;709
+
+North Carolina;861
+Wisconsin;873
+
+Villanova;848
+Winthrop;784
+
+Purdue;865
+North Texas;782
+
+Texas Tech;864
+Utah St.;824
+
+Arkansas;863
+Colgate;796
+
+Florida;830
+Virginia Tech;812
+
+Ohio St.;894
+Oral Roberts;733
+
+Illinois;939
+Drexel;724
+
+Loyola Chicago;851
+Georgia Tech;798
+
+Tennessee;858
+Oregon St.;797
+
+Oklahoma St.;849
+Liberty;770
+
+San Diego St.;856
+Syracuse;831
+
+West Virginia;866
+Morehead St.;737
+
+Clemson;824
+Rutgers;841
+
+Houston;906
+Cleveland St.;718
+
+##########################################################################
+# RESULTS
+# Here we define the results of the tournament up to any given point. On the first line, write the 32 winning teams of the play-in games in order of occurrence and semicolon separated. On the second line, do the same for the next round. etc. If the tournament is still ongoing, simply put a single underscore for every spot where a team's name should be.
+##########################################################################
+Florida;Arkansas;Illinois;Texas Tech;Oral Roberts;Baylor;Loyola Chicago;Oregon St.;Oklahoma St.;Wisconsin;Houston;North Texas;Rutgers;Syracuse;Villanova;West Virginia;Colorado;Florida St.;Kansas;LSU;Michigan;Creighton;Alabama;USC;Iowa;Maryland;Ohio;Oklahoma;Gonzaga;UCLA;Abilene Christian;Oregon
+Loyola Chicago;Baylor;Syracuse;Arkansas;Houston;Oral Roberts;Villanova;Oregon St.;Oregon;Gonzaga;UCLA;Creighton;Michigan;Florida St.;Alabama;USC
+_;_;_;_;_;_;_;_
+_;_;_;_
+_;_
+_
+
+##########################################################################
+# PREDICTIONS
+# On the next line, write the name of the person whose prediction you are defining. Then describe there bracket on the following 6 lines exactly as in the section above (but there should be no _'s).
+##########################################################################
+Ashley
+Gonzaga;Missouri;Creighton;Virginia;USC;Kansas;Oregon;Iowa;Michigan;LSU;Colorado;Florida St.;BYU;Texas;UConn;Alabama;Baylor;Wisconsin;Winthrop;Purdue;Utah St.;Arkansas;Virginia Tech;Ohio St.;Illinois;Loyola Chicago;Tennessee;Liberty;San Diego St.;West Virginia;Clemson;Houston
+Gonzaga;Creighton;Kansas;Oregon;Michigan;Colorado;Texas;Alabama;Baylor;Winthrop;Arkansas;Ohio St.;Illinois;Tennessee;San Diego St.;Houston
+Gonzaga;Kansas;Michigan;Alabama;Baylor;Arkansas;Tennessee;Houston
+Gonzaga;Michigan;Baylor;Houston
+Gonzaga;Baylor
+Gonzaga
+
+Gary
+Gonzaga;Missouri;Creighton;Virginia;USC;Kansas;Oregon;Iowa;Michigan;LSU;Colorado;Florida St.;UCLA;Texas;UConn;Alabama;Baylor;North Carolina;Winthrop;Purdue;Texas Tech;Arkansas;Florida;Ohio St.;Illinois;Loyola Chicago;Tennessee;Oklahoma St.;San Diego St.;West Virginia;Rutgers;Houston
+Gonzaga;Virginia;Kansas;Iowa;Michigan;Colorado;Texas;Alabama;Baylor;Purdue;Arkansas;Ohio St.;Illinois;Tennessee;West Virginia;Houston
+Gonzaga;Iowa;Michigan;Alabama;Baylor;Ohio St.;Illinois;Houston
+Gonzaga;Michigan;Baylor;Illinois
+Gonzaga;Baylor
+Gonzaga
+
+Genny
+Gonzaga;Oklahoma;Creighton;Virginia;USC;Kansas;VCU;Iowa;Michigan;St. Bonaventure;Georgetown;Florida St.;UCLA;Texas;Maryland;Alabama;Baylor;Wisconsin;Villanova;Purdue;Texas Tech;Arkansas;Virginia Tech;Ohio St.;Illinois;Loyola Chicago;Tennessee;Oklahoma St.;Syracuse;Morehead St.;Rutgers;Houston
+Gonzaga;Virginia;Kansas;Iowa;Michigan;Georgetown;UCLA;Alabama;Wisconsin;Villanova;Texas Tech;Ohio St.;Illinois;Tennessee;Syracuse;Houston
+Virginia;Iowa;Michigan;UCLA;Villanova;Ohio St.;Illinois;Houston
+Iowa;Michigan;Ohio St.;Illinois
+Iowa;Illinois
+Illinois
+
+Jace
+Gonzaga;Oklahoma;Creighton;Virginia;USC;Kansas;Oregon;Iowa;Michigan;LSU;Colorado;Florida St.;UCLA;Texas;UConn;Alabama;Baylor;Wisconsin;Winthrop;Purdue;Texas Tech;Colgate;Virginia Tech;Ohio St.;Illinois;Loyola Chicago;Tennessee;Oklahoma St.;Syracuse;West Virginia;Rutgers;Houston
+Gonzaga;Creighton;USC;Iowa;Michigan;Florida St.;Texas;UConn;Baylor;Purdue;Texas Tech;Ohio St.;Illinois;Tennessee;Syracuse;Houston
+Gonzaga;Iowa;Florida St.;Texas;Baylor;Texas Tech;Illinois;Houston
+Iowa;Texas;Baylor;Houston
+Iowa;Baylor
+Baylor
+
+Juliet
+Gonzaga;Missouri;Creighton;Ohio;USC;Kansas;Oregon;Grand Canyon;Michigan;LSU;Georgetown;Florida St.;BYU;Abilene Christian;UConn;Alabama;Baylor;Wisconsin;Winthrop;North Texas;Texas Tech;Arkansas;Virginia Tech;Oral Roberts;Illinois;Georgia Tech;Tennessee;Oklahoma St.;Syracuse;West Virginia;Clemson;Houston
+Gonzaga;Ohio;USC;Grand Canyon;Michigan;Georgetown;BYU;UConn;Wisconsin;North Texas;Arkansas;Virginia Tech;Georgia Tech;Tennessee;West Virginia;Clemson
+Gonzaga;USC;Georgetown;BYU;Wisconsin;Arkansas;Tennessee;West Virginia
+Gonzaga;BYU;Wisconsin;Tennessee
+Gonzaga;Wisconsin
+Wisconsin
+
+Lyndsey
+Gonzaga;Oklahoma;Creighton;Virginia;USC;Kansas;Oregon;Iowa;Michigan;LSU;Colorado;Florida St.;BYU;Texas;UConn;Alabama;Baylor;North Carolina;Villanova;Purdue;Utah St.;Arkansas;Florida;Ohio St.;Illinois;Loyola Chicago;Tennessee;Liberty;San Diego St.;West Virginia;Clemson;Houston
+Gonzaga;Creighton;Kansas;Oregon;Michigan;Florida St.;Texas;Alabama;Baylor;Villanova;Arkansas;Ohio St.;Illinois;Tennessee;San Diego St.;Clemson
+Gonzaga;Oregon;Michigan;Texas;Baylor;Ohio St.;Illinois;San Diego St.
+Gonzaga;Michigan;Baylor;San Diego St.
+Gonzaga;Baylor
+Baylor
+
+Tanner
+Gonzaga;Missouri;Creighton;Virginia;Drake;Kansas;VCU;Iowa;Michigan;LSU;Colorado;UNC Greensboro;BYU;Texas;UConn;Alabama;Baylor;Wisconsin;Villanova;Purdue;Texas Tech;Arkansas;Virginia Tech;Ohio St.;Illinois;Loyola Chicago;Oregon St.;Oklahoma St.;Syracuse;West Virginia;Clemson;Houston
+Gonzaga;Creighton;Kansas;Iowa;Michigan;Colorado;BYU;UConn;Baylor;Purdue;Texas Tech;Ohio St.;;Illinois;Oregon St.;West Virginia;Houston
+Gonzaga;Kansas;Michigan;BYU;Baylor;Ohio St.;Illinois;Houston
+Gonzaga;Michigan;Ohio St.;Houston
+Michigan;Houston
+Michigan
+
+Tina
+Gonzaga;Missouri;Creighton;Virginia;USC;Kansas;Oregon;Iowa;Michigan;St. Bonaventure;Colorado;Florida St.;BYU;Texas;UConn;Alabama;Baylor;Wisconsin;Villanova;Purdue;Texas Tech;Arkansas;Florida;Ohio St.;Illinois;Georgia Tech;Tennessee;Oklahoma St.;San Diego St.;West Virginia;Clemson;Houston
+Gonzaga;Creighton;Kansas;Iowa;Michigan;Florida St.;Texas;Alabama;Baylor;Villanova;Texas Tech;Ohio St.;Illinois;Oklahoma St.;West Virginia;Houston
+Gonzaga;Kansas;Michigan;Alabama;Baylor;Ohio St.;Oklahoma;West Virginia
+Gonzaga;Alabama;Ohio St.;West Virginia
+Alabama;Ohio St.
+Ohio St.
+
+Zach
+Gonzaga;Oklahoma;Creighton;Virginia;USC;Kansas;Oregon;Iowa;Michigan;LSU;Georgetown;Florida St.;BYU;Texas;Maryland;Alabama;Baylor;North Carolina;Winthrop;Purdue;Texas Tech;Arkansas;Florida;Ohio St.;Illinois;Loyola Chicago;Tennessee;Oklahoma St.;San Diego St.;West Virginia;Rutgers;Houston
+Gonzaga;Creighton;Kansas;Iowa;Michigan;Florida St.;Texas;Maryland;Baylor;Purdue;Texas Tech;Ohio St.;Illinois;Oklahoma St.;San Diego St.;Houston
+Gonzaga;Iowa;Florida St.;Texas;Baylor;Ohio St.;Illinois;Houston
+Gonzaga;Florida St.;Ohio St.;Illinois
+Gonzaga;Illinois
+Gonzaga
